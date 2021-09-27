@@ -1,7 +1,7 @@
 pragma solidity ^0.4.0; 
 // Donor Recipient Matching Smart Contract 
 
-contract DonorRecipientMatching {
+contract OrganDoanation {
 address public ProcurementOrganizer;
 address public OrganMatchingOrganizer;
 mapping(address => bool) TransplantTeamMember; // only authorized Hospital Transplant Team Members are allowed
